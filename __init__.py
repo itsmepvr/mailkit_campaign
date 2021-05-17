@@ -1,17 +1,17 @@
 from emailKit import MailKit
 
 campaign = {
-    "name": "Test12979",
-    "description": "description"
+    "name": "Email_Campaign_2021",
+    "description": "An email campaign about the year 2021"
 }
 
 mailingList = {
-    "name": "Dapppa",
-    "description": "AAsasakskajskj"
+    "name": "Itsmepvr",
+    "description": "personal_list"
 }
 
 email = {
-    "email": "venkata.nestor@gmail.com",
+    "email": "hr@mailkit.in",
     "subject": "Maikit Interview Assessment: Venkata Ramana P",
     "body": """<h1>MailKit Interview Assesment</h1>
                 <hr>
@@ -34,9 +34,11 @@ email = {
                     </tr>
                 </table>
                 <hr>
-                Please, click the below link for the assesment file.
+                Please, click the link for the assesment file - https://drive.google.com/drive/folders/1kAccinSSKaWo-NQq6muoL5Mt-6yyhcfV?usp=sharing
                 <br>
-                https://drive.google.com/file/d/0B1xxML7ZMOl1STJGM3J5bDNyLUk/view?usp=sharing
+                Link to the github repo - https://github.com/itsmepvr/mailkit_campaign
+                <br><br>
+                <strong>Thank you..</strong>
             """
 }
 

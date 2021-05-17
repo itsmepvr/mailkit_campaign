@@ -4,7 +4,7 @@ import json
 import base64
 from dotenv import load_dotenv
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
-# Insecurity Warning 
+# Insecurity Warning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 load_dotenv()  # take environment variables from .env.
